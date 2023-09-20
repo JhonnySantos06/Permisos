@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvVibracion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvVibracion"/>
+
+    <Button
+        android:id="@+id/btnSoliPerVibracion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="solicitarPermisosVibracion"
+        android:text="@string/btnSoliPerVibracion" />
+
+    <TextView
+        android:id="@+id/tvMicrofono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvMicrofono" />
+
+    <Button
+        android:id="@+id/btnSoliPerMicro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="SolicitarPermisosMicrofono"
+        android:text="@string/btnSoliPerMicrofono" />
+
+    <TextView
+        android:id="@+id/tvAccesoInternet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvAccesoInternet" />
+
+    <Button
+        android:id="@+id/btnSoliPerRed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="solicitarPermisosStatusRed"
+        android:text="@string/btnSoliPerRed" />
+    <Button
+        android:id="@+id/btnVerificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnVerificarPermiso" />
+
+</LinearLayout>

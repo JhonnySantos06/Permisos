@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Permisos</string>
+    <string name= "tvVibracion">Permiso vibracion: </string>
+    <string name= "tvMicrofono">Permiso Microfono: </string>
+    <string name= "tvAccesoInternet">Permiso Estado de acceso Red: </string>
+    <string name= "btnSoliPerVibracion">Solicitar permiso Vibración </string>
+    <string name= "btnSoliPerMicrofono">Solicitar permiso Microfono </string>
+    <string name= "btnSoliPerRed">Solicitar permiso Estado de acceso Red </string>
+    <string name= "btnVerificarPermiso">ValidarPermisos </string>
+
+</resources>
